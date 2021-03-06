@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+# pylint: disable=locally-disabled, multiple-statements
+# pylint: disable=fixme, line-too-long, invalid-name
+# pylint: disable=wrong-spelling-in-comment
+# pylint: disable=W0703
+
+""" This is a PyText example """
+
 from flask import Flask, make_response
 
 
@@ -5,18 +13,22 @@ APP = Flask(__name__)
 
 
 def sumar(n, m):
+    """ Operando: Sumar """
     return n + m
 
 
 def restar(n, m):
+    """ Operando: Restar """
     return n - m
 
 
 def multiplicar(n, m):
+    """ Operando: Multiplicar """
     return n * m
 
 
 def dividir(n, m):
+    """ Operando: Dividir """
     return n / m
 
 
